@@ -1,0 +1,115 @@
+/* header */
+header {
+  margin-bottom: 40px;
+  text-transform: capitalize;
+  background-image: url(images/backgrounds/dark-background.jpg);
+}
+
+/* links styled */
+a:link    { color: red; }
+a:visited { color: orange; }
+a:hover   { color: pink; }
+a:active  { color: green; }
+
+/* Navigation Items / Header */
+header nav {
+  display: flex;
+  justify-content: center;
+}
+
+.logotitle {
+  text-align: center;
+  font-size: 22px;
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  font-size: 22px;
+}
+
+header nav ul li {
+  list-style-type: none;
+}
+
+header nav ul li a {
+  padding: 0 20px 0 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Logo */
+.logo {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 15px 0 0 0;
+  font-size: 64px;
+  margin: 10px;
+  color: white;
+}
+
+/* general items */
+body {
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: black;
+  color: white;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+
+/* profile pic info */
+.image-item {
+  width: 600px;
+  height: 800px;
+  border-radius: 8px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* text in sections */
+section div.item {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+}
+
+/* footer */
+
+footer {
+  text-align: center;
+  padding: 25px;
+  background-image: url(images/backgrounds/dark-background.jpg);
+}
+
+/* HR Line CSS */
+hr {
+  width: 650px;
+  border-radius: 8px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* iframe maps */
+ div iframe {
+  width: 600px;
+  border-radius: 8px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
